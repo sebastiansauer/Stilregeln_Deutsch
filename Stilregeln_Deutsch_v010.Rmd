@@ -1,10 +1,10 @@
 ---
-title: 'Stilregeln guten Deutsches'
+title: 'Stilregeln im Deutschen'
 subtitle: "Eine Unterstützung beim Verfassen (wissenschaftlicher) Berichte"
 author: "Sebastian Sauer"
 date: "30\\. November 2017"
 bibliography: "/Users/sebastiansauer/Documents/Literatur/ref_mgt/library.bib"
-csl: "/Users/sebastiansauer/Documents/Literatur/ref_mgt/apa.csl"
+csl: "/Users/sebastiansauer/Documents/Literatur/ref_mgt/dgps.csl"
 
 referee: Lizenz CC-BY-SA 4.0
 graphics: null
@@ -12,14 +12,13 @@ lang: de-De
 UP_title: yes
 UP_subtitle: no
 lof: no
-toc: no
+toc: yes
 lot: no
-header-includes:
-   - \usepackage{framed}
+
 
 fontsize: 11pt 
 numbersections: TRUE
-fontfamily:  lmodern  # tgtermes
+fontfamily:  mathpazo # tgtermes, lmodern, kpfonts 
 
 
 shaded_quote: yes
@@ -36,15 +35,224 @@ output:
 
 Was ist mit *Stil* im Hinblick auf *gutes Deutsch* gemeint? Zum einen, dass das Deutsch fehlerfrei sei. Der Anspruch beim Schreiben eines "ernstgemeinten" Textes soll sein, (nahezu) *korrekt* zu sein in Rechtschreibung, Zeichensetzung (besonders Komma) sowie Satzbau und Grammatik. Zum anderen soll der Text *stilsicher* sein: Der Text soll das Verständnis unterstüzten - nicht erschweren. Aber nicht nicht gut verständlich, sondern auch gefällig. Frei nach Wilhelm Busch "Er sagt es klar und angenehm, Was erstens, zweitens und drittens käm."
 
->    Mit Stil schreiben heißt, korrekt, verständlich und gefällig zu schreiben.
+>    Mit Stil schreiben heißt, korrekt, verständlich und gefällig zu schreiben. 
+
+Ein Wort zur *Einfachheit*. Man soll so einfach wie möglich schreiben, aber so kompliziert wie nötig. Anders gesagt: Einfach, aber nicht so einfach, dass Sachverhalte falsch (verkürzt) dargestellt würden.
+
+
+Vieles, das meiste dieses Aufsatzes, ist @Schneider und von @Kornmeier entnommen.
 
 
 # Fehlerfreies Deutsch
 
 
+## Beliebte Rechschreibfehler
 
+Häufige Rechtschreibfehler sind die, die die Worterkennung nicht findet. Dazu zählen:
+
+- Grammatikfehler
+- Auseinanderschreiben von zusammgensetzten Wörtern (sog.~Komposita)
+- Fremdwörter, deren Hinweise der Rechtschreibprüfung als Fehlalarm gedeutet werden
+- Worte, die in mehreren Varianten existiieren (das vs. dass)
+- Verben, die als Substantive verwendet werden (Das Schwimmen; Schwimmen gefällt ihr).  
+
+
+### Fremdwörter
+Zusammengesetzte Fremdwörter werden zusammengeschrieben: "Desktoppublishing". Ist der erste Bestandteil ein Adjektiv, so kann zusammengeschrieben werden, wenn die Betonung auf den ersten Bestandteil liegt: "Long Drink" oder "Long Drink", aber "Top Ten" [@Duden].
+
+## Kommasetzung
+
+Mit ein paar wenigen Regeln lassen sich viele Kommafehler vermeiden [@sofa].
+
+
+1. Kommas trennen Aufzählungen! Kommas trennen aneinandergereihte Wörter, die nicht durch Konjunktionen ("und", "oder", "sowie", "entweder - oder", "sowohl - als auch" "weder - noch") verbunden sind. 
+
+>    Extraversion wurde mittels AFD, ZDF und HHH getestet.
+Achtung, Ausnahme! Es wird *kein* Adjektiv gesetzt zwischen *gleichrangigen Adjektiven*: "Ihre Haare strahlten bezaubernd blond."
+
+
+1. Kommas werden zwischen Sätzen gesetzt! Aber nur, wenn die nicht durch eine Konjunktion (z.\ B. "und", "oder")
+
+>   "Die Stichprobe bestand aus $n=30$ Personen, davon waren 42 männlich."
+
+
+3. Der Infinitiv zieht oft ein Komma an! Das Wort "zu" und ein Verb im Infintiv brauchen ein Komma, wenn mit Worten wie "um", "außer" oder "ohne" eingeleitet wird.
+
+>   "Der Fragebogen wurde eingesetzt, ohne die Übersetzung vorher zu prüfen." 
+"Die Daten wurden mit flexibeln Modellen geschätzt, um den Fit zu verbessern."
+
+
+4. Vor entgegengesetzten Konunktionen wie "aber", "allein", "doch", "jedoch" oder "sondern" steht ein Komma.
+
+>   "Es wurde auf fehlende Worte geprüft, aber auf eine MCAR-Analyse wurde verzichtet."
+
+
+5. Vor aneinanderreihenden Konjunktionen wie "einerseits - andererseits", "je - desto", "nicht nur - sondern auch" steht ein Komma.
+
+>    "Einerseits ist die Theorie von Freud weit verbreitet, andererseits wird sie stark kritisiert."
+
+6. Der eingeschobene Nebensatz beginnt und endet mit einem Komma.
+
+>   "Der Zug überfuhr die Kuh, die auf dem Bahngleis stand, und entgleiste.", "Das Verfahren, das von Müller entwickelt wurde, erfreut sich großer Beliebtheit."
+
+## Kupplung
+
+Es heißt nicht "Fugen Reiniger", sondern "Fugenreineiger". Ebenso:
+
+- "Pflaumenkompott" und nicht "Pflaumen Kompott"
+- "Axel-Springer-Verlag" und nicht "Axel Springer Verlag"
+- "Messinstrument" und nicht "Mess Instrument"
+- "Müllerstraße" und "Müller Straße"
+- "Personalkostenmanagement" und nicht "Personal Kostenmanagement"
+- "Dinkelmehl" und nicht "Dinkel Mehl"
+
+Also: Was ein Ding ist, wird als ein Wort geschrieben. Dieses Zusammenschreiben nennt man *Kuppeln*. *Bindestriche* sind zur besseren Lesebarkeit oder bein ungewöhnlichen Wörtern auch erlaubt: "Tee-Ernte", "Umsatzsteuer-Tabelle" und "A-Dur". 
+
+Auch bei Anglizismen, die an deutsche Wörter gekuppelt sind, bindet sich der Bindestrich an: "CRM-System", "Controlling-Werkzeug", "Business-Prozess".
+
+
+>    Achtung: Der Bindstrich ist *kein* Gedankenstrich. Der Gedankenstrich ist kurz wie in A-Dur. Der Gedankenstrich -- leitet zu einen neuen Gedanken über.
+
+
+## Zahlen, Ziffern und Zweifel
+Soll man Zahlen ausschreiben oder in Ziffern setzen? Kommt drauf an. Eine *Ziffer* ist eines der Zeichen von 0 bis 9. Eine *Nummer* besteht aus einer oder mehr Ziffern. Eine *Zahl* lässt sich in Buchstaben oder in Ziffern schreiben. Einige Regeln nach @Schneider:
+
+1. Was verglichen werden soll, wird gleich geschrieben: "Die Überlebensquote in der 1. Klasse lag bei 3%, in der 3. Klasse bei 1%". "23 Schüler beantworteten die Frage, 9 nicht". Allerdings sehen einige Stilvorlagen vor, einen Satz *nicht* mit Zahlen zu beginnen.
+
+2. Ziffern dürfen keine Scheingenauigkeit vermitteln. "Wir haben 231.456 Kunden" - oder war es vielleicht doch einer weniger? Besser: "Wir haben gut 200.000 Kunden".
+
+3. Wenn eine Einheit neben der Zahl steht, so sind Nummern zu verwenden: "23cm"
+
+
+
+## Konjunktiv
+
+Eine zentrale Regel des Konjunktiv lautet, dass er für die indirekte Rede verwendet wird. Genauer gesagt wird dafür i.\ d.\ R. der Konjunktiv 1 verwendet (gleich noch mehr dazu). Typische Formen: sei, habe, komme, nehme. Außerdem ist der Konjunktiv 1 für Auffoderungen typisch: "Man nehme drei Eier" und "Gott sei Dank".
+
+Der Konjunktiv 2 benennt, was *nicht* ist, aber gewünscht oder bedauert wird ("Wenn ich doch nur nicht den Sauer als Prüfer hätte!", "Hätte ich doch nur wenigstens einmal zugehört!"). Typische Formen: wäre, hätte, käme, nähme,
+
+
+
+
+>   Regel 1: In der indirekten Rede wird der Konjunktiv 1 gesetzt. Ausnahme: Wenn es keine Form des Verbs im Konjunktiv 1 gibt, so muss auf den Konjunktiv 2 ausgewichen werden. Tatsächlich scheint der Konjunktiv 1 für die 3. Person Einzahl gemacht zu sein; viele Verben haben den Konjunktiv 1 nur in dieser Form.
+
+Beispiele:
+
+- Er sagte, er sei krank. (FALSCH: Er sagte, er *wäre* krank.)
+- Der Direktor sagte, es käme zu keinen Entlassungen.
+- Er erwähnte, dass es ihr gefiele.
+
+Achtung:
+
+- "Ich sagte, ich *habe*""  ist Indikativ, es gibt keine Form des Konjunktiv 1 hier, daher muss auf den Konjunktiv 2 ausgewichen werden: "Ich sagte, ich hätte" 
+- "Er sagte, er *wäre* krank" lässt durchscheinen, dass er *nicht* krank ist.
+- "Er sagte, er wäre gekommen" (*wenn* die Sonne nicht so schön geschienen hätte) - ist das *Gegenteil* von "Er sagte, er sei gekommen".
+- "Er sagte, er würde kommen" ist identisch zu "Er sagte, er käme".
+
+
+
+
+> Regel 2: Der Konjunktiv soll sparsam verwendet werden. Lieber umformulieren als viele Konjunktive aneinander reihen.
 
 
 
 # Stilsicheres Deutsch
 
+
+## Wortwahl
+
+### Füllwörter
+
+"If in doubt, kick it out" -- so könnte eine Faustregel lautet zur Frage, ob ein Wort nötig oder überflüssig ist. Ein paar klassische Füllwörter sind:
+
+- auch
+- doch
+- eigentlich
+- aber
+- jedenfalls
+- allzu 
+- allein
+- doch
+- ja
+- ganz und gar
+- sicher(lich)
+- ziemlch
+- durchaus
+- durchweg
+- des Öfteren
+- dessen ungeachtet
+- einigermaßen
+- erheblich
+- etlich
+- etwa
+- quasi
+
+
+### Der Nominalstil
+
+Als Nominalstil bezeichnet man Sätze, in denen mit Verben gegeizt wird und stattdessen Nominalgruppen vorherrschen; das Gegenteil davon ist der *Verbalstil*. Der Nominalstil ist im Amtsdeutsch verbreitet, da er formal und wenig emotional (leblos?) klingt. Außerdem spart er Platz. Der Verbalstil hingegen klingt lebendiger und kann ansprechender klingen. Wie oft liegt in der Dosis das Gift.
+
+
+
+>
+Beispiel A:  
+- Das Hervorrufen von Ärger zur Stimmunngsinduktion kann zur Produktion von Erregung beitragen  
+- Ärger hervorrufen, um eine Stimmung zu induzieren kann erregen (Erregung produzieren).  
+
+
+
+
+> 
+Beispiel B:  
+- Das Inkraftreten des Entschlusses zur Instandhaltung wird vertagt  
+- Der Entschluss zur Instandhaltung trifft später in Kraft  
+- Der Entschluss, die Maschine weiter zu betreiben, wird bis auf Weiteres ausgesetzt  
+- Die Maschine wird bis auf Weiteres nicht weiter betrieben.  
+
+
+> 
+Beispiel C:   
+- Ermittlung der Management-Ziele  
+- Verschriftlichung der Rückmeldungen  
+- Aufarbeitung der Ergebnisse  
+- (Die) Management-Ziele ermitteln  
+- Rückmeldungen verschriftlichzen  
+- Ergebnisse aufarbeiten  
+
+
+###  Adjektive
+
+Auch hier gilt die Knappheitsregel: Im Zweifel ist weniger mehr.
+
+#### Ajektivitis
+
+
+#### Adjektive vs. Adverben
+
+
+
+### Verben
+
+#### Blähverben
+
+#### ...
+
+
+## Zeitformen
+
+## Pleonasmen
+
+## Aktiv vs. Passiv
+
+## Schwulst
+
+
+## Satzbau
+
+### Satzlänge
+
+
+### Schachtelsätze
+
+
+## Textsatz
