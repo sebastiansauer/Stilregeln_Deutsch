@@ -1,0 +1,50 @@
+---
+title: 'Stilregeln guten Deutsches'
+subtitle: "Eine Unterstützung beim Verfassen (wissenschaftlicher) Berichte"
+author: "Sebastian Sauer"
+date: "30\\. November 2017"
+bibliography: "/Users/sebastiansauer/Documents/Literatur/ref_mgt/library.bib"
+csl: "/Users/sebastiansauer/Documents/Literatur/ref_mgt/apa.csl"
+
+referee: Lizenz CC-BY-SA 4.0
+graphics: null
+lang: de-De
+UP_title: yes
+UP_subtitle: no
+lof: no
+toc: no
+lot: no
+header-includes:
+   - \usepackage{framed}
+
+fontsize: 11pt 
+numbersections: TRUE
+fontfamily:  lmodern  # tgtermes
+
+
+shaded_quote: yes
+
+
+  
+  
+output: 
+  yart::yart
+---
+
+
+# Wozu auf Stil Wert legen?
+
+Was ist mit *Stil* im Hinblick auf *gutes Deutsch* gemeint? Zum einen, dass das Deutsch fehlerfrei sei. Der Anspruch beim Schreiben eines "ernstgemeinten" Textes soll sein, (nahezu) *korrekt* zu sein in Rechtschreibung, Zeichensetzung (besonders Komma) sowie Satzbau und Grammatik. Zum anderen soll der Text *stilsicher* sein: Der Text soll das Verständnis unterstüzten - nicht erschweren. Aber nicht nicht gut verständlich, sondern auch gefällig. Frei nach Wilhelm Busch "Er sagt es klar und angenehm, Was erstens, zweitens und drittens käm."
+
+>    Mit Stil schreiben heißt, korrekt, verständlich und gefällig zu schreiben.
+
+
+# Fehlerfreies Deutsch
+
+
+
+
+
+
+# Stilsicheres Deutsch
+
